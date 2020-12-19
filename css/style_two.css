@@ -1,0 +1,587 @@
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700');
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  /* background: #fafafa;  */
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999; }
+
+h1{
+  font-weight: 700;
+  font-size: 60px;
+  color: #222222;
+}
+
+li{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  transition: all 0.3s; }
+
+h1, h2, h3, h4, h5, h6{
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------------------------------------
+End of CONTENT STYLE
+----------------------------------------------------- */
+
+
+/*---------------==========================---------------------
+custom section starter
+---------------------------================--------------------*/
+.custom_section_starter {
+  padding-left: 0;
+  margin-top: 30px;
+}
+.custom_section_starter p{
+  color: #FFB000;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  /* font-family: initial; */
+}
+
+.custom_section_starter p:before {
+  display: inline-block;
+  margin: 0 6px 3px 0;
+  height: 3px;
+  content: " ";
+  text-shadow: none;
+  background-color: #FFB000;
+  width: 40px;
+}
+.custom_section_title {
+  padding-top: 10px;
+  padding-bottom: 23px;
+}
+.custom_section_title h4{
+  color: #000000;
+  font-size: 35px;
+  /* font-family: initial; */
+  font-weight: bold;
+  text-align: initial; 
+}
+/*---------------==========================---------------------
+End of custom section starter
+---------------------------================--------------------*/
+
+
+
+/*---------------==========================---------------------
+About page
+---------------------------================--------------------*/
+
+.about .row {
+
+ 
+}
+
+.about p,
+.about h1,
+.about h2,
+.about h3,
+.about h4,
+.about h5,
+.about form
+{
+  /* font-family: initial; */
+}
+
+.about h2 {
+  font-size: 2.7rem;
+}
+.about p {
+  line-height:1rem;
+  font-size: 0.9rem;
+  color: black;
+}
+.about .custom_btn{
+  padding: 15px 30px;
+}
+
+.about .section-right img{
+  width: 100%;
+}
+.about_button-wrapper{
+  margin-top:30px;
+}
+
+.about .pageheader_section{
+  background-position: center;
+
+}
+.about .pageheader_title_wrapper{
+  background-position: center;
+  justify-content:flex-end;
+}
+
+
+.section_header_wrapper{
+  display:flex;
+  height:400px;
+  align-items:center;
+  margin-top:50px;
+}
+
+.section_header_title_wrapper h1{
+  color: white;
+  /* font-family: initial; */
+  
+}
+
+.section_header_title_wrapper h5{
+  color: #FFB000;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+}
+
+.about .registered_massage_row_content_button,
+.about .result_section_row_col_two_btn  {
+  margin-top:30px;
+}
+.about .section_starter p{
+  color:#FFB000;
+}
+.about_section_row_col_two {
+  margin-top: 50px;
+}
+
+
+/*---------------==========================---------------------
+-Cupping-
+---------------------------================--------------------*/
+
+.cupping section {
+  background-position: center;
+  
+}
+
+
+.about_section_row_col_one_img_wrapper{
+  height: 300px;
+  /* height: auto; */
+  background: no-repeat center center scroll;
+  background-size: cover;
+  position: relative;
+}
+.about_section_row_col_one_img_wrapper p{
+  padding-top: 190px;
+  padding-bottom: 20px;
+}
+
+.about_section_paragraph_two p{
+  font-family: 'Mr Dafoe', cursive;
+  color: #F4A601;
+  font-size: 60px;
+}
+
+
+.about_section_heading_two h3{
+  /* font-family: initial; */
+  font-weight: bold;
+  font-size: 65px;
+  color: #FFFFFF;  
+  line-height: 90px; 
+  
+}
+/* .text-shadow{
+  text-shadow: 5px 2px #999;
+} */
+
+.chinese-cupping p{
+  font-size: 2.5rem;
+}
+
+/*---------------==========================---------------------
+-team-
+---------------------------================--------------------*/
+.team{
+  margin-top:50px;
+}
+.team h2{
+  font-size:2rem;
+}
+.team_gallery_fig{
+  border:0;
+}
+.team_gallery_fig_info ul {
+  color: black;
+  font-size: 19px;
+  /* font-family: initial; */
+  list-style-type: none;
+  padding-left: 0;
+}
+.team_gallery_fig_info li {
+  /* font-family: initial; */
+  font-size: 1rem;
+  color: #999;
+}
+.team_gallery_fig_info li:before  {
+  content: "-";
+  text-indent: -5px;
+}
+
+.team_gallery_fig {
+  margin-bottom: 26px;
+}
+.team_gallery_fig_img_wrapper{
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.team_gallery_fig_img_wrapper p{
+  height: 280px;
+ 
+}
+
+.team-card-deck{
+
+}
+/*---------------==========================---------------------
+ -contact-
+---------------------------================--------------------*/
+
+
+.about .contact-info-title{
+margin-bottom: 10px;
+}
+.about .contact-info-title i{
+  color: #212529;
+  border: 3px solid  #212529;
+  padding:10px;
+}
+.about .contact-info p{
+  color:#999;
+  
+}
+
+.about-contact{
+  margin-bottom:100px;
+  margin-top: 50px;
+
+}
+
+.about-contact h2,
+.about-contact p{
+  /* font-family: initial; */
+}
+/*---------------==========================---------------------
+ -muscle soreness-
+---------------------------================--------------------*/
+.about .contact-info-title{
+margin-bottom: 10px;
+}
+.about .contact-info-title i{
+  color: #212529;
+  border: 3px solid  #212529;
+  padding:10px;
+}
+.about .contact-info p{
+  color:#999;
+  
+}
+.muscle_soreness {
+  width: 100%;
+}
+.muscle_soreness section{
+  background-position: left bottom;
+}
+
+.muscle_soreness h1{
+  color:black;
+  font-size:2.2em;
+  font-weight: lighter;
+  
+}
+.muscle_soreness h5{
+  color:black;
+}
+
+.muscle_soreness_row {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  align-items: center;
+}
+
+
+/*---------------==========================---------------------
+End of About page
+---------------------------================--------------------*/
+
+
+/*---------------==========================---------------------
+Contact page
+---------------------------================--------------------*/
+.contact p,
+.contact h1,
+.contact h2,
+.contact h3,
+.contact h4,
+.contact h5,
+.contact form
+{
+  /* font-family: initial; */
+}
+.contact .pageheader_section{
+  background-position: center bottom;
+}
+.contact .googlemap{
+  width:100%
+}
+.contact-info-wrapper{
+  width:100%;
+ margin-top: 30px;
+  
+}
+.contact-info-wrapper .row{
+  margin-left: 8%;
+}
+  
+.contact-info {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.location:hover {
+  cursor: pointer;
+}
+.contact-info-title{
+  display:flex;
+  align-items:center;
+}
+.contact-info-title h5{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.contact-info .fas{
+  color: #FFB000;
+  size: 5px;
+  border: 3px solid #FFB000;
+  padding: 12px 13px ;
+  border-radius: 40px 40px;
+}
+.contact-info p{
+  margin: 0;
+}
+
+
+.contact form{
+  width:80%;
+  margin:0 auto;
+}
+
+
+.contact-form-control{
+  background:rgb(247,243,240);
+  margin:10px;
+  border:none;
+}
+.contact-form-wrapper .custom_btn{
+  color: white;
+  padding: 20px;
+}
+
+
+
+/* contact map */
+
+.map_row{
+  position: relative;
+  height: 500px;
+}
+.shown_map{
+  display: block;
+  position: absolute;
+}
+.hidden_map{
+  display: none;
+}
+
+
+/*---------------==========================---------------------
+End of Contact page
+---------------------------================--------------------*/
+/*---------------==========================---------------------
+Intl page
+---------------------------================--------------------*/
+.section_starter.intl {
+  margin-top: 50px;
+}
+/*---------------==========================---------------------
+End of Intl page
+---------------------------================--------------------*/
+/*---------------==========================---------------------
+feedback page
+---------------------------================--------------------*/
+.card-white {
+  width: 100%;
+}
+.card-white  .card-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #ddd;
+   border: 1px solid #dddddd;
+  
+}
+.card-white  .card-footer {
+  background-color: #fff;
+  border-color: #ddd;
+}
+.card-white .h5 {
+    font-size:14px;
+    /* //font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+}
+.card-white .time {
+    font-size:12px;
+    /* //font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+}
+.post .post-heading {
+  height: 95px;
+  padding: 20px 15px;
+}
+.post .post-heading .avatar {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-right: 15px;
+}
+.post .post-heading .meta .title {
+  margin-bottom: 0;
+  line-height:50px;
+}
+.post .post-heading .meta .title h5{
+  line-height:50px;
+}
+.post .post-heading .meta .title a {
+  color: black;
+}
+.post .post-heading .meta .title a:hover {
+  color: #aaaaaa;
+}
+.post .post-heading .meta .time {
+  margin-top: 8px;
+  color: #999;
+}
+.post .post-image .image {
+  width: 100%;
+  height: auto;
+}
+.post .post-description {
+  padding: 15px;
+}
+.post .post-description p {
+  font-size: 14px;
+}
+.post .post-description .stats {
+  margin-top: 20px;
+}
+.post .post-description .stats .stat-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+.post .post-description .stats .stat-item .icon {
+  margin-right: 8px;
+}
+.post .post-footer {
+  border-top: 1px solid #ddd;
+  padding: 15px;
+}
+.post .post-footer .input-group-addon a {
+  color: #454545;
+}
+.post .post-footer .comments-list {
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none;
+}
+.post .post-footer .comments-list .comment {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
+.post .post-footer .comments-list .comment .avatar {
+  width: 35px;
+  height: 35px;
+}
+.post .post-footer .comments-list .comment .comment-heading {
+  display: block;
+  width: 100%;
+}
+.post .post-footer .comments-list .comment .comment-heading .user {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline;
+  margin-top: 0;
+  margin-right: 10px;
+}
+.post .post-footer .comments-list .comment .comment-heading .time {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 0;
+  display: inline;
+}
+.post .post-footer .comments-list .comment .comment-body {
+  margin-left: 50px;
+}
+.post .post-footer .comments-list .comment > .comments-list {
+  margin-left: 50px;
+}
+/*---------------==========================---------------------
+End of feedback
+---------------------------================--------------------*/
+
+
+
+/*---------------==========================---------------------
+Single feedback
+---------------------------================--------------------*/
+.indiv-feedback{
+  padding-top: 50px;
+}
+.patient-info {
+  margin-bottom:50px;
+}
+.patient-info img{
+  float: left;
+  margin-right:20px;
+  width:100px;
+}
+
+.feedback-content img{
+  width: 100%;
+  height: auto;
+}
+
+/*---------------==========================---------------------
+End of Single feedback
+---------------------------================--------------------*/
+
+
+

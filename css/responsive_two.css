@@ -1,0 +1,230 @@
+@media(max-width: 1199px){
+}
+
+
+@media(max-width: 1100px){
+
+}
+
+@media(max-width: 1057px){
+
+}
+
+
+@media(min-width: 992px){
+
+}
+
+@media(max-width: 991px){
+
+
+.section_header_title_wrapper {
+    text-align: right ;
+}
+.about .section-right {
+    margin-top:20px;
+}
+
+.contact-info-wrapper .row{
+  margin-left: 0;
+}
+
+
+}
+
+
+
+@media(max-width: 802px){
+
+.header_row_col_two {
+    justify-content: flex-start;
+}
+
+
+}
+
+@media(max-width: 768px){
+
+
+}
+
+
+@media(max-width: 767px){
+
+
+}
+
+@media(max-width: 705px){
+
+
+.contact-form-control{
+   
+    margin: 10px 0;
+ 
+  }
+  
+  
+  
+  
+  .patient-info {
+    margin-bottom:25px;
+  }
+  .patient-info img{
+    float: left;
+    margin-right:20px;
+    width:50px;
+  }
+
+}
+
+
+@media(max-width: 636px){
+
+
+}
+
+
+@media (max-width: 610px){
+
+
+
+
+}
+
+
+@media (max-width: 575px) {
+.about .contact-info{
+    width:30%;
+}
+.team-card-deck{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+}
+
+
+@media(max-width: 559px){
+
+
+}
+@media(max-width: 540px){
+    .about .contact-info{
+        width:auto;
+    }
+    
+
+}
+
+
+@media(max-width: 511px){
+
+
+}
+
+
+@media(max-width: 451px){
+
+
+}
+
+
+@media (max-width: 457px){
+  .indiv-feedback{
+    padding-top: 100px;
+  }
+}
+
+
+@media(max-width: 445px){
+
+
+}
+
+@media (max-width: 425px){
+  .indiv-feedback{
+    padding-top: 50px;
+  }
+
+
+}
+
+@media (max-width: 393px){
+
+
+}
+
+
+
+@media (max-width: 375px){
+
+}
+
+@media (max-width: 363px){
+
+
+}
+
+
+
+@media (max-width: 320px){
+
+
+
+}
+
+
+@media (max-width: 319px){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* // Extra small devices (portrait phones, less than 559.99px) */
+
+@media (min-width: 320px) and (max-width: 559px) {
+
+}
+
+
+@media (min-width: 560px) and (max-width: 575px) {
+
+
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 990.99px) {
+
+
+}
+
+
+@media (min-width:991px) and (max-width:1199px){
+
+}
+
+
+/* // Large devices (desktops, less than 1200px) */
+
+@media (min-width: 1220px) and (max-width: 3000px) {
+
+
+}
+
+@media (min-width: 1280px) and (max-width: 1600px) {
+
+}
